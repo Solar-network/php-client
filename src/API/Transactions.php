@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client\API;
+namespace SolarNetwork\Client\API;
 
 /**
  * This is the transactions resource class.

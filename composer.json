@@ -1,5 +1,5 @@
 {
-    "name": "arkecosystem/client",
+    "name": "solar-network/client",
     "description": "A simple PHP API client for the Solar Blockchain.",
     "keywords": ["api", "solar", "blockchain", "crypto", "currency"],
     "license": "MIT",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ArkEcosystem\\Client\\": "src"
+            "SolarNetwork\\Client\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArkEcosystem\\Tests\\Client\\": "tests"
+            "SolarNetwork\\Tests\\Client\\": "tests"
         }
     },
     "config": {

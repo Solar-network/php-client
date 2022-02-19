@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client;
+namespace SolarNetwork\Client;
 
 use BadMethodCallException;
 use GuzzleHttp\Client;
@@ -77,12 +77,12 @@ class Connection
      *
      * @param string $name
      *
-     * @return \ArkEcosystem\Client\API\AbstractAPI
+     * @return \SolarNetwork\Client\API\AbstractAPI
      */
     public function api(string $name): API\AbstractAPI
     {
         $name  = ucfirst($name);
-        $class = "ArkEcosystem\\Client\\API\\{$name}";
+        $class = "SolarNetwork\\Client\\API\\{$name}";
 
         if (! class_exists($class)) {
             throw new RuntimeException("Class [$class] does not exist.");

@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client\API;
+namespace SolarNetwork\Client\API;
 
-use ArkEcosystem\Client\Connection;
-use ArkEcosystem\Client\Contracts\API;
-use ArkEcosystem\Client\Http\Request;
+use SolarNetwork\Client\Connection;
+use SolarNetwork\Client\Contracts\API;
+use SolarNetwork\Client\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Arr;
 
@@ -29,14 +29,14 @@ abstract class AbstractAPI
     /**
      * The client connection.
      *
-     * @var \ArkEcosystem\Client\Connection
+     * @var \SolarNetwork\Client\Connection
      */
     public $connection;
 
     /**
      * Create a new API class instance.
      *
-     * @param \ArkEcosystem\Client\Connection $connection
+     * @param \SolarNetwork\Client\Connection $connection
      */
     public function __construct(Connection $connection)
     {

@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client;
+namespace SolarNetwork\Client;
 
 use InvalidArgumentException;
 
@@ -42,7 +42,7 @@ class ConnectionManager
      * @param array  $config
      * @param string $name
      *
-     * @return \ArkEcosystem\Client\Connection
+     * @return \SolarNetwork\Client\Connection
      */
     public function connect(array $config, string $name = 'main'): Connection
     {
@@ -72,7 +72,7 @@ class ConnectionManager
      *
      * @param string|null $name
      *
-     * @return \ArkEcosystem\Client\Connection
+     * @return \SolarNetwork\Client\Connection
      */
     public function connection(string $name = null): Connection
     {
