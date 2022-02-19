@@ -1,4 +1,4 @@
-# Ark PHP - Client
+# Solar PHP - Client
 
 > A simple PHP API client for the Solar Blockchain.
 
